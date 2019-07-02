@@ -79,6 +79,7 @@ The default configuration should work just fine for you, but you can take a look
 <a name="user-relation-to-team" />
 
 ### User relation to teams
+> If you have recently upgraded to Laravel 5.8 you have to change the column type of the `users.id` to `bigIncrements` in the migration.
 
 Run the `migration` command, to generate all tables needed for Teamwork.
 **If your users are stored in a different table other than `users` be sure to modify the published migration.**
